@@ -3,7 +3,7 @@ import sys
 if len(sys.argv)==5:
     script_name = sys.argv[0]
     name = sys.argv[1]
-    date = int(sys.argv[2])
+    date = sys.argv[2]
     experience = int(sys.argv[3])
     location = sys.argv[4]
     print("Employee Details Provided:")
